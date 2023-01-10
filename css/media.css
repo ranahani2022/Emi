@@ -1,0 +1,176 @@
+
+/*#############################  (1050) ############################# */
+
+@media (max-width: 1050px) {
+
+  nav .links ul
+  {
+    top: 0;
+    z-index: 7;
+    width: 35%;
+    right: -100%;
+    height: 100vh;
+    position: fixed;
+    padding-top: 1em;
+    align-items: center;
+    flex-direction: column;
+    transition: right 1.5s linear;
+    background-color: #333f5a;
+  }  
+
+  nav .links li 
+  {
+    width: 100%;
+    display: block;
+    font-size: 16px;
+    transition: .6s;
+    padding: 2px 10px;
+    text-align: center;
+    margin-bottom: 1.5em;
+  }
+
+  nav .links li a
+  {
+    margin-left: 0;
+  }
+
+  nav .links li:hover
+  {
+    padding-left: 2em;
+    background-color: rgba(34, 34, 34, 0.726);
+  }
+
+  nav .links li:hover a
+  {
+    color: var(--yellow);
+  }
+
+  nav .links ul.active
+  {
+    right: 0;
+    padding: 1.5em 0 0;
+  }
+
+  nav .menu i
+  {
+    display: block;
+    cursor: pointer;
+  }
+
+  nav .login button
+  {
+    margin-top: 0;
+  }
+
+  nav #close-menu
+  {
+    top: 10px;
+    right: 20px;
+    display: block;
+    font-size: 16pxpx;
+    position: absolute;
+    color: #ffc107;
+  }
+
+  .feature-left , 
+  .feature-right
+  {
+    width: 100%;
+    text-align: center;    
+    flex-basis: 100%;
+  }  
+
+  .feature-left img 
+  {
+    height: auto; 
+    padding-top: 0;
+  }
+
+}
+
+/*#############################  (992) ############################# */
+
+@media (min-width:500px) and (max-width: 992px) {
+
+  .about
+  {
+    width: fit-content;
+    text-align: center;
+  }
+
+  .contact .contact-left , 
+  .contact .contact-right
+  {
+    width: 90%;
+    margin: 2em auto;
+  }
+
+  .contact-right-top , 
+  .contact-right-bottom 
+  {
+    padding-left: 0em;
+  }
+
+  .line
+  {
+    margin-left: 0;
+  }
+
+}
+
+/*#############################  (830) ############################# */
+
+@media (max-width: 830px) {
+
+  header .header-image ,
+  header .header-content
+  {
+    width: 100%;
+    text-align: center;
+  }
+
+}
+
+/*#############################  (600) ############################# */
+
+@media (max-width: 600px) {
+
+  .feature-right-top 
+  {
+    display:block;
+  }
+
+}
+
+
+/*#############################  (500) ############################# */
+
+@media (max-width: 500px) {
+  nav .links ul
+  {
+    width: 45%;
+  }
+
+  .contact-right
+  {
+    padding-top: 2em;
+  }
+
+  .contact-right-top , 
+  .contact-right-bottom
+  {
+    padding-left: 0;
+  }
+
+  .line
+  {
+    margin-left: 0;
+  }
+
+  footer 
+  {
+    margin-top: 5em;
+    padding: 2em;
+  }
+ 
+}
